@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+// pagine statiche
+Route::get('/privacy-policy','StaticPageController@privacyPolicy');
+Route::get('/lavora-con-noi','StaticPageController@WorkWithUs');

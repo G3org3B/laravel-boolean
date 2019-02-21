@@ -10704,3 +10704,23 @@ header .header-right ul li.active a {
   border-bottom: 2px solid lightgreen;
 }
 
+.Home .section_1 {
+  height: 400px;
+}
+
+.pre_footer {
+  margin-top: 40px;
+}
+
+.pre_footer img {
+  max-width: 100%;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background: #1B3C59;
+  line-height: 50px;
+  color: white;
+}
+
