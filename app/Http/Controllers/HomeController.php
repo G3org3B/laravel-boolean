@@ -10,7 +10,7 @@ class HomeController extends Controller
   {
     $data = [
       'title'=> 'Homepage Boolean',
-      'meta_description'=>'Questa è la prima pagina'
+      'description'=>'Questa è la prima pagina'
     ];
 
     return view('home', $data);

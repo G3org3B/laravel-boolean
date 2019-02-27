@@ -14,5 +14,5 @@
 Route::get('/', 'HomeController@index')->name('home');
 
 // pagine statiche
-Route::get('/privacy-policy','StaticPageController@privacyPolicy')->name('static_pages.privacy');
-Route::get('/lavora-con-noi','StaticPageController@WorkWithUs')->name('static_pages.work_with_us');
+Route::get('/privacy-policy','StaticPageController@privacyPolicy')->name('static.privacy');
+Route::get('/lavora-con-noi','StaticPageController@WorkWithUs')->name('static.work');

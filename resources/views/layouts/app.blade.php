@@ -2,9 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="{{ $meta_description }}">
+    <meta name="description" content=" @yield('meta_description', 'Boolean Careers - Corso Full Stack')">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>{{ $title }}</title>
+    <title>@yield('title', 'Boolean Careers')</title>
   </head>
   <body>
     <header>

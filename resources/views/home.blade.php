@@ -1,6 +1,9 @@
 
 @extends('layouts.app')
 
+@section('title', $title)
+@section('meta_description', $description)
+
 @section('content')
   <div class="container">
     <div class="home">
