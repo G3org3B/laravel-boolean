@@ -14,13 +14,13 @@
       <div class="header-right">
         <ul>
           <li class="active">
-            <a href="#">Home</a>
+            <a href="{{ route('home') }}">Home</a>
           </li>
           <li>
-            <a href="#">Privacy Policy</a>
+            <a href="{{ route('static.privacy' )}}">Privacy Policy</a>
           </li>
           <li>
-            <a href="#">Lavora con noi</a>
+            <a href="{{ route('static.work' )}}">Lavora con noi</a>
           </li>
         </ul>
       </div>
