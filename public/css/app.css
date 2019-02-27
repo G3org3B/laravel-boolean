@@ -10660,6 +10660,13 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.cont {
+  width: 20%;
+  height: 100%;
+  margin: 0 auto;
+  background: red;
+}
+
 header {
   width: 100%;
   height: 80px;
@@ -10722,5 +10729,41 @@ footer {
   background: #1B3C59;
   line-height: 50px;
   color: white;
+}
+
+.student {
+  margin: 40px auto;
+  width: 400px;
+  height: 80px;
+  background: #1B3C59;
+}
+
+.student .student-left,
+.student .student-right {
+  float: left;
+  height: 100%;
+}
+
+.student .student-left {
+  padding: 0 10px;
+  width: 30%;
+}
+
+.student .student-left img {
+  margin-top: 5px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.student .student-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  color: white;
+}
+
+.student .student-right h3 {
+  font-size: 18px;
 }
 
